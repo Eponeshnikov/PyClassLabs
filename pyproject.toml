@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyclasslabs"
+version = "0.1.0"
+description = ""
+authors = ["Eponeshnikov <eponeshnikov.sanek@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+jupyterlab = "^3.4.2"
+numpy = "^1.22.4"
+scipy = "^1.8.1"
+matplotlib = "^3.5.2"
+scikit-learn = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
