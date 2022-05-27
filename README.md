@@ -8,9 +8,10 @@ Labs for understanding classes in Python
 
 For poetry:
 
-``poetry install``
-
-``poetry update``
+```
+poetry install
+poetry update
+```
 
 For pip:
 
